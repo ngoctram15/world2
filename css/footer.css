@@ -1,0 +1,29 @@
+footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.keyboard-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 60px;
+  background-color: rgb(128, 131, 132);
+  color: white;
+}
+
+.keyboard-column[data-key="ENTER"] {
+  width: 70px;
+}
