@@ -27,3 +27,19 @@ footer {
 .keyboard-column[data-key="ENTER"] {
   width: 70px;
 }
+.keyboard-column[data-key="delete"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 60px;
+}
+
+.keyboard-column[data-key="delete"] img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-color: white;
+}
